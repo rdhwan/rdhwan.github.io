@@ -21,7 +21,7 @@ export default function App() {
           <div className="flex flex-col items-center justify-center font-montserrat text-primary">
             <h1 className="font-bold text-xl">Fathan Ridhwan</h1>
             <h2 className="font-montserrat font-light text-lg">
-              Universitas Multimedia Nusantara
+              Full-stack Developer, Hardware Enthusiast
             </h2>
           </div>
           <SocialMediaButtons />
@@ -48,13 +48,14 @@ export default function App() {
           <br />
           <br />
           In my free time, I love getting my hands dirty with programming and
-          playing around with some hardware. It's my way of unleashing
-          creativity and turning ideas into reality. Whether it's coding up a
-          new project or tinkering with different hardware components, I find
-          joy in the process of bringing things to life. Exploring the endless
-          possibilities of technology is not just a hobby for me, but a passion
-          that keeps me excited and motivated. It's in these moments of coding
-          and hardware tinkering that I truly feel in my element.
+          playing around with some hardware (mostly old routers and ESP32). It's
+          my way of unleashing creativity and turning ideas into reality.
+          Whether it's coding up a new project or tinkering with different
+          hardware components, I find joy in the process of bringing things to
+          life. Exploring the endless possibilities of technology is not just a
+          hobby for me, but a passion that keeps me excited and motivated. It's
+          in these moments of coding and hardware tinkering that I truly feel in
+          my element.
           <br />
           <br />
           My ambition, adaptability, and enthusiasm for programming make me an
