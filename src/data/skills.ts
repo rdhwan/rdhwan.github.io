@@ -1,22 +1,92 @@
-export interface ISkill {
-  lang: string;
-  brief: string;
-}
+type Skill = {
+  framework: string;
+  logoPath: string;
+  ghLink: string;
+};
 
-export const skillData: ISkill[] = [
+export const frontEnd: Skill[] = [
   {
-    lang: "Python",
-    brief:
-      "As an experienced Python programmer since 9th grade, I have a strong foundation in programming principles and can write efficient, concise, and readable code. With expertise in the latest Python tools and frameworks like FastAPI. I develop high-quality applications and APIs that leverage Python's object-oriented programming capabilities and extensive libraries for optimal performance.",
+    framework: "React",
+    logoPath: "/assets/logos/react.png",
+    ghLink: "https://github.com/facebook/react",
   },
   {
-    lang: "Typescript",
-    brief:
-      "I am a committed programmer, passionate about learning Typecript to create interactive and responsive frontends. I explore popular frameworks like React, Next and Express to develop scalable and maintainable web applications. With a strong desire to expand my skills, I plan to learn React Native soon to become an accomplished developer in the Typescript ecosystem.",
+    framework: "Next JS",
+    logoPath: "/assets/logos/next.png",
+    ghLink: "https://github.com/vercel/next.js",
   },
   {
-    lang: "Dart",
-    brief:
-      "As a beginner in Flutter development, I am focused on learning the basics such as slicing Figma designs into Flutter app pages and understanding mobile layouting. With a hands-on approach and high motivation to develop intuitive and responsive apps, I am confident that I will create polished and efficient applications in the future.",
+    framework: "Remix",
+    logoPath: "/assets/logos/remix.png",
+    ghLink: "https://github.com/remix-run",
+  },
+  {
+    framework: "Tailwind CSS",
+    logoPath: "/assets/logos/tailwind.png",
+    ghLink: "https://github.com/tailwindlabs/tailwindcss",
+  },
+  {
+    framework: "Chakra UI",
+    logoPath: "/assets/logos/chakra.png",
+    ghLink: "https://github.com/chakra-ui/chakra-ui",
+  },
+  {
+    framework: "Framer Motion",
+    logoPath: "/assets/logos/framer.webp",
+    ghLink: "https://github.com/framer/motion",
+  },
+];
+
+export const backEnd: Skill[] = [
+  {
+    framework: "Express JS",
+    logoPath: "/assets/logos/express.png",
+    ghLink: "https://github.com/expressjs/express",
+  },
+  {
+    framework: "Elysia",
+    logoPath: "/assets/logos/elysia.svg",
+    ghLink: "https://github.com/elysiajs/elysia",
+  },
+  {
+    framework: "FastAPI",
+    logoPath: "/assets/logos/fastapi.png",
+    ghLink: "https://github.com/tiangolo/fastapi",
+  },
+  {
+    framework: "Prisma",
+    logoPath: "/assets/logos/prisma.svg",
+    ghLink: "https://github.com/prisma/prisma",
+  },
+];
+
+export const mobile: Skill[] = [
+  {
+    framework: "Expo",
+    logoPath: "/assets/logos/expo.png",
+    ghLink: "https://github.com/expo/expo",
+  },
+  {
+    framework: "Flutter",
+    logoPath: "/assets/logos/flutter.png",
+    ghLink: "https://github.com/flutter/flutter",
+  },
+];
+
+export const others: Skill[] = [
+  {
+    framework: "Ubuntu Server",
+    logoPath: "/assets/logos/ubuntu.png",
+    ghLink: "https://ubuntu.com/",
+  },
+  {
+    framework: "Docker",
+    logoPath: "/assets/logos/docker.png",
+    ghLink: "https://github.com/docker",
+  },
+  {
+    framework: "OpenWRT",
+    logoPath: "/assets/logos/openwrt.png",
+    ghLink: "https://github.com/openwrt/openwrt",
   },
 ];
